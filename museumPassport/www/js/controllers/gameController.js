@@ -19,7 +19,6 @@ angular
       });
   };
 
-
   $scope.selectWord = function(chosenArray){
     var word = chosenArray[Math.floor(Math.random()*chosenArray.length)];
     $scope.wordAnswer = word;
